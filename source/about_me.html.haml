@@ -1,0 +1,5 @@
+%h1 About Me
+.about_me
+  - data.about_me.each do |about_me|
+    %h6= about_me[:name]
+    %p= about_me[:text]
