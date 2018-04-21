@@ -1,0 +1,5 @@
+%h1 About Me
+.about_me
+  - data.about_me.each do |career|
+    %p= career[:name]
+    %p= career[:description]
