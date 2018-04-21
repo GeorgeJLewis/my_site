@@ -1,5 +1,5 @@
 body {
-  background: image-url('room.jpg') no-repeat ;
+  background: image-url('room.jpg') no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,6 +11,7 @@ body {
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   padding: 18vh 1rem;
   color: white;
+  text-shadow: 4px 4px 5px black;
   text-align: center;
   margin: auto;
   max-width: 500px;
@@ -39,8 +40,8 @@ a {
 }
 
 .about_me {
-  color: white;
-  text-shadow: 4px 4px 5px black;
+  color: black;
+  text-shadow: 4px 4px 5px white;
   max-width: 500px;
   margin: auto;
 }
@@ -52,6 +53,7 @@ h1 {
 .navbar {
     overflow: hidden;
     background-color: white;
+    text-shadow: 4px 4px 5px white;
     position: fixed;
     top: 0;
     left: 0;
